@@ -1,6 +1,7 @@
 // import "./App.css";
 import Banner from "./components/banner/Banner";
 import BestSelling from "./components/best-selling/Best-selling";
+import FashionBackPack from "./components/fashion-backpack/FashionBackpack";
 import Header from "./components/header/Header";
 import ProductHighSeels from "./components/product-high-heels/ProductHighHeels";
 
@@ -11,6 +12,7 @@ export default function App() {
       <Banner />
       <BestSelling />
       <ProductHighSeels />
+      <FashionBackPack />
     </>
   );
 }
