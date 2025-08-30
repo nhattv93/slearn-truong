@@ -1,0 +1,43 @@
+.storesystem-container {
+  background-color: #000;
+  margin-top: 50px;
+  height: 300px;
+}
+
+.storesystem-top {
+  text-align: center;
+  padding: 22px 0 8px;
+}
+
+.storesystem-top a {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.storesystem-top p {
+  color: #fff;
+  font-size: 30px;
+  margin: 0;
+}
+
+.storesystem-bottom {
+  position: relative;
+  margin: 40px;
+}
+
+.storesystem-bottom::before {
+  content: "";
+  position: absolute;
+  left: 60px;
+  right: 60px;
+  bottom: 105px;
+  height: 1px;
+  background-color: rgb(230, 230, 230);
+  margin: 0 15px 20px 15px;
+}
+
+.storesystem-bottom p {
+  color: #fff;
+  padding: 0 75px;
+}
