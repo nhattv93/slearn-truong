@@ -28,6 +28,7 @@
 }
 
 .header-menu {
+  position: relative;
   display: flex;
   list-style: none;
 }
@@ -107,4 +108,153 @@ a {
 
 .header-logo img {
   width: 120px;
+}
+
+.header-popup-1 {
+  position: absolute;
+  top: 100%;
+  left: 40px;
+  width: 21%;
+  background-color: #fff;
+  padding: 10px;
+  display: none;
+  flex-direction: column;
+  border-radius: 5px;
+  z-index: 100;
+  list-style: none;
+}
+
+.header-popup-1 a {
+  display: block;
+  padding: 8px 12px;
+  color: black;
+  text-decoration: none;
+}
+
+.header-popup-1 a:hover {
+  text-decoration: underline;
+}
+
+.header-menu li:hover .header-popup-1 {
+  display: flex;
+}
+
+.header-popup-2 {
+  position: absolute;
+  top: 100%;
+  left: 150px;
+  width: 21%;
+  background-color: #fff;
+  padding: 10px;
+  display: none;
+  flex-direction: column;
+  border-radius: 5px;
+  z-index: 100;
+  list-style: none;
+}
+
+.header-popup-2 a {
+  display: block;
+  padding: 8px 12px;
+  color: black;
+  text-decoration: none;
+}
+
+.header-popup-2 a:hover {
+  text-decoration: underline;
+}
+
+.header-menu li:hover .header-popup-2 {
+  display: flex;
+}
+
+.header-popup-3 {
+  position: absolute;
+  top: 100%;
+  left: 235px;
+  width: 22%;
+  background-color: #fff;
+  padding: 10px;
+  display: none;
+  flex-direction: column;
+  border-radius: 5px;
+  z-index: 100;
+  list-style: none;
+}
+
+.header-popup-3 a {
+  display: block;
+  padding: 8px 12px;
+  color: black;
+  text-decoration: none;
+}
+
+.header-popup-3 a:hover {
+  text-decoration: underline;
+}
+
+.header-menu li:hover .header-popup-3 {
+  display: flex;
+}
+
+.header-popup-4 {
+  position: absolute;
+  top: 100%;
+  left: 440px;
+  width: 27%;
+  background-color: #fff;
+  padding: 10px;
+  display: none;
+  flex-direction: column;
+  border-radius: 5px;
+  z-index: 100;
+  list-style: none;
+}
+
+.header-popup-4 a {
+  display: block;
+  padding: 8px 12px;
+  color: black;
+  text-decoration: none;
+}
+
+.header-popup-4 a:hover {
+  text-decoration: underline;
+}
+
+.header-menu li:hover .header-popup-4 {
+  display: flex;
+}
+
+.header-popup-5 {
+  position: absolute;
+  top: 100%;
+  left: 845px;
+  width: 27%;
+  background-color: #fff;
+  padding: 10px;
+  display: none;
+  flex-direction: column;
+  border-radius: 5px;
+  z-index: 100;
+  list-style: none;
+}
+
+.header-popup-5 a {
+  display: block;
+  padding: 8px 12px;
+  color: black;
+  text-decoration: none;
+}
+
+.header-popup-5 a:hover {
+  text-decoration: underline;
+}
+
+.header-menu li:hover .header-popup-5 {
+  display: flex;
+}
+
+.header-title a {
+  color: #000;
 }

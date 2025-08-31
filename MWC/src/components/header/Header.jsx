@@ -25,28 +25,114 @@ export default function Header() {
         <nav className="header-nav">
           <ul className="header-menu">
             <li>
-              <a href="#">GIÁ ƯU ĐÃI</a>
+              <div className="header-title">
+                <a href="#">GIÁ ƯU ĐÃI</a>
+              </div>
+              <ul className="header-popup-1">
+                <li>
+                  <a href="#">79K</a>
+                </li>
+                <li>
+                  <a href="#">99K - 119K</a>
+                </li>
+                <li>
+                  <a href="#">149K - 159K</a>
+                </li>
+                <li>
+                  <a href="#">GIÁ ĐẶC BIỆT</a>
+                </li>
+              </ul>
             </li>
             <li>
-              <a href="#">GIÀY NỮ</a>
+              <div className="header-title">
+                <a href="#">GIÀY NỮ</a>
+              </div>
+              <ul className="header-popup-2">
+                <li>
+                  <a href="#">GIÀY CAO GÓT</a>
+                </li>
+                <li>
+                  <a href="#">GIÀY THỂ THAO</a>
+                </li>
+                <li>
+                  <a href="#">SANDAL NỮ</a>
+                </li>
+                <li>
+                  <a href="#">DÉP SỤC</a>
+                </li>
+                <li>
+                  <a href="#">DÉP BÚP BÊ & MỌI</a>
+                </li>
+                <li>
+                  <a href="#">OXFORD & BOOT</a>
+                </li>
+                <li>
+                  <a href="#">DÉP NỮ</a>
+                </li>
+              </ul>
             </li>
             <li>
-              <a href="#">GIÀY NAM</a>
+              <div className="header-title">
+                <a href="#">GIÀY NAM</a>
+              </div>
+              <ul className="header-popup-3">
+                <li>
+                  <a href="#">GIÀY THỂ THAO NAM</a>
+                </li>
+                <li>
+                  <a href="#">SANDAL NAM</a>
+                </li>
+                <li>
+                  <a href="#">DÉP NAM</a>
+                </li>
+                <li>
+                  <a href="#">GIÀY TÂY & SLIP ON</a>
+                </li>
+                <li>
+                  <a href="#">BOOT NAM & OXFORD</a>
+                </li>
+              </ul>
             </li>
-            <li>
+            <li className="header-title">
               <a href="#">GIÀY CẶP</a>
             </li>
             <li>
-              <a href="#">BALO-TÚI</a>
+              <div className="header-title">
+                <a href="#">BALO-TÚI</a>
+              </div>
+              <ul className="header-popup-4">
+                <li>
+                  <a href="#">Balo laptop, du lịch, thời trang</a>
+                </li>
+                <li>
+                  <a href="#">Túi Đeo Chéo</a>
+                </li>
+              </ul>
             </li>
-            <li>
+            <li className="header-title">
               <a href="#">SALE50%</a>
             </li>
-            <li>
+            <li className="header-title">
               <a href="#">SẢN PHẨM BÁN CHẠY</a>
             </li>
             <li>
-              <a href="#">PHỤ KIỆN</a>
+              <div className="header-title">
+                <a href="#">PHỤ KIỆN</a>
+              </div>
+              <ul className="header-popup-5">
+                <li>
+                  <a href="#">Vớ</a>
+                </li>
+                <li>
+                  <a href="#">Chai Vệ Sinh Giày</a>
+                </li>
+                <li>
+                  <a href="#">Dây Giày</a>
+                </li>
+                <li>
+                  <a href="#">Đế Lót</a>
+                </li>
+              </ul>
             </li>
           </ul>
         </nav>
