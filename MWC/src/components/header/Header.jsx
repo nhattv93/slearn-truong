@@ -19,6 +19,9 @@ export default function Header() {
   return (
     <div className={`header-container ${scrolled ? "scrolled" : ""}`}>
       <div className="header-inner">
+        <div className="menu-mobile">
+          <img src="./menu.svg" alt="" />
+        </div>
         <div className="header-logo">
           <img src="./logo.png" alt="logo" />
         </div>

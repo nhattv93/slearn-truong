@@ -267,6 +267,14 @@ a {
   color: #000;
 }
 
+.menu-mobile {
+  display: none;
+}
+
+.menu-mobile img {
+  width: 7%;
+}
+
 @media only screen and (max-width: 1024px) {
   .header-menu {
     justify-content: flex-start;
@@ -281,5 +289,50 @@ a {
   .header-menu li a {
     padding: 10px 5px;
     font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .menu-mobile {
+    display: block;
+    cursor: pointer;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .menu-mobile img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .header-inner {
+    padding: 0 15px;
+    justify-content: space-between;
+  }
+
+  .header-logo {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .header-action {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .header-search input {
+    display: none;
+  }
+
+  .header-search-icon {
+    position: static;
+  }
+
+  .header-search-icon img {
+    width: 22px;
   }
 }
