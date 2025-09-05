@@ -16,9 +16,12 @@
 
 .menfashionshoes-card p {
   text-align: center;
-  white-space: nowrap;
+  white-space: normal;
   overflow: hidden;
   text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
 
 .menfashionshoes-card span {
@@ -66,4 +69,20 @@
   height: 1px;
   background-color: rgb(230, 230, 230);
   margin: 0 15px 20px 15px;
+}
+
+@media only screen and (max-width: 430px) {
+  .menfashionshoes-child {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .menfashionshoes-card {
+    width: 100%;
+  }
+
+  .menfashionshoes-card img {
+    height: auto;
+    object-fit: cover;
+  }
 }

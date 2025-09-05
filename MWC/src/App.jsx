@@ -17,14 +17,14 @@ export default function App() {
       <Header />
       <Banner />
       <BestSelling />
-      {/* <ProductHighSeels />
+      <ProductHighSeels />
       <FashionBackPack />
       <WomenShoes />
       <MenShoes />
       <MenFashionShoes />
       <MwcFashion />
       <Footer />
-      <StoreSystem /> */}
+      <StoreSystem />
     </>
   );
 }

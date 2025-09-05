@@ -41,3 +41,19 @@
   color: #fff;
   padding: 0 75px;
 }
+
+@media only screen and (max-width: 430px) {
+  .storesystem-bottom p {
+    padding: 0;
+    margin: 5px;
+  }
+
+  .storesystem-bottom::before {
+    left: -15px;
+    right: 0;
+  }
+
+  .storesystem-bottom {
+    margin: 20px;
+  }
+}

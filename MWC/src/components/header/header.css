@@ -108,7 +108,7 @@ a {
 }
 
 .header-logo img {
-  width: 120px;
+  width: 25%;
 }
 
 .header-popup-1 {
@@ -294,8 +294,8 @@ a {
 
 @media only screen and (max-width: 430px) {
   .menu-mobile {
-    display: block;
-    cursor: pointer;
+    display: flex;
+    /* cursor: pointer; */
   }
 
   .header-nav {
@@ -322,6 +322,7 @@ a {
     display: flex;
     align-items: center;
     gap: 10px;
+    width: 27%;
   }
 
   .header-search input {
@@ -334,5 +335,6 @@ a {
 
   .header-search-icon img {
     width: 22px;
+    display: flex;
   }
 }
