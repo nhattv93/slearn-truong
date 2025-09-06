@@ -33,16 +33,16 @@ export default function Header() {
               </div>
               <ul className="header-popup-1">
                 <li>
-                  <a href="#">79K</a>
+                  <a href="/header-sale/sale-79k.html">79K</a>
                 </li>
                 <li>
-                  <a href="#">99K - 119K</a>
+                  <a href="/header-sale/sale-99k-119k.html">99K - 119K</a>
                 </li>
                 <li>
-                  <a href="#">149K - 159K</a>
+                  <a href="/header-sale/sale-149k-159k.html">149K - 159K</a>
                 </li>
                 <li>
-                  <a href="#">GIÁ ĐẶC BIỆT</a>
+                  <a href="/header-sale/sale-dacbiet.html">GIÁ ĐẶC BIỆT</a>
                 </li>
               </ul>
             </li>
@@ -147,7 +147,9 @@ export default function Header() {
             </div>
           </div>
           <div className="header-icons">
-            <img src="./user.svg" alt="" />
+            <a href="/header-sale/login.html">
+              <img src="./user.svg" alt="user" />
+            </a>
             <div className="header-icons-cart">
               <img src="./cart.svg" alt="cart" />
               <div className="cart-span">

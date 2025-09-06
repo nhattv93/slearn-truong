@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fdfdfd;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+  gap: 100px;
+  padding: 50px 0;
+}
+
+.form-box {
+  width: 350px;
+}
+
+.form-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+input {
+  width: 94%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  width: 60%;
+  padding: 10px;
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #444;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 8px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.social button {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding: 8px 15px;
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #000;
+}
+
+.social img {
+  width: 18px;
+  height: 18px;
+}
+
+.note {
+  margin-top: 20px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.divider {
+  position: relative;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background: #ccc;
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+.divider span {
+  background: #fff;
+  padding: 0 10px;
+  color: #666;
+}
+
+.line {
+  border-left: 1px solid #ddd;
+  height: auto;
+}
