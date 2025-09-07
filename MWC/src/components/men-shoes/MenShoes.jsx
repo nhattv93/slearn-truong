@@ -100,7 +100,7 @@ export default function MenShoes() {
       </div>
 
       <div className="menshoes-see-all">
-        <a href="#">XEM TẤT CẢ</a>
+        <a href="header-sale/xem-tat-ca.html">XEM TẤT CẢ</a>
       </div>
     </div>
   );

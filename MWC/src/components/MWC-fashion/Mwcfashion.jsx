@@ -42,7 +42,7 @@ export default function Mwcfashion() {
       </div>
 
       <div className="mwcfashion-see-all">
-        <a href="#">XEM TẤT CẢ</a>
+        <a href="header-sale/xem-tat-ca.html">XEM TẤT CẢ</a>
       </div>
     </div>
   );

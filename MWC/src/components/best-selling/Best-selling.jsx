@@ -108,7 +108,7 @@ export default function BestSelling() {
         </div>
       </div>
       <div className="see-all">
-        <a href="#">XEM TẤT CẢ</a>
+        <a href="header-sale/xem-tat-ca.html">XEM TẤT CẢ</a>
       </div>
     </div>
   );

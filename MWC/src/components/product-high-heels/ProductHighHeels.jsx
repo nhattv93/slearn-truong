@@ -106,7 +106,7 @@ export default function ProductHighSeels() {
       </div>
 
       <div className="see-all-producthighseels">
-        <a href="#">XEM TẤT CẢ</a>
+        <a href="header-sale/xem-tat-ca.html">XEM TẤT CẢ</a>
       </div>
     </div>
   );
