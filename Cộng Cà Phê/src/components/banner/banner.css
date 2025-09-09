@@ -1,0 +1,49 @@
+@import url("https://db.onlinewebfonts.com/c/164a60c2e090248bebfcf32fdd5af386?family=Lulo+Clean+One+Bold");
+@import url("https://link-cdn-fonts.com/path/to/nitti.css");
+
+.banner-container {
+  position: relative;
+}
+
+.banner-container img {
+  max-width: 100%;
+}
+
+.banner-title {
+  background-color: rgba(255, 241, 208, 0.9);
+  position: absolute;
+  padding: 20px 0 15px;
+  top: 689px;
+  width: 100%;
+}
+
+.banner-title h6 {
+  font-size: 17px;
+  color: #555555;
+  text-transform: uppercase;
+  font-family: "BeauLuloClean-OneBold";
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.banner-title p {
+  color: #232323;
+  font-size: 14px;
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.5;
+  margin: 0 auto;
+  width: 38%;
+  text-align: center;
+}
+
+.banner-link {
+  position: absolute;
+  bottom: 0;
+  right: 575px;
+}
+
+.banner-link a {
+  color: #3c5e2c;
+  text-decoration: underline;
+  font-size: 12px;
+}
