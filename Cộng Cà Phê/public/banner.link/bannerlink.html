@@ -7,10 +7,16 @@
   </head>
   <body>
     <div id="header"></div>
+    <div id="footer"></div>
     <script>
       fetch("/header/header.html")
         .then((res) => res.text())
         .then((data) => (document.getElementById("header").innerHTML = data));
+    </script>
+    <script>
+      fetch("/footer/footer.html")
+        .then((res) => res.text())
+        .then((data) => (document.getElementById("footer").innerHTML = data));
     </script>
   </body>
 </html>

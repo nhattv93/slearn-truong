@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <style>
+    .footer-container {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      padding: 40px 100px;
+      background: #fff;
+      font-family: Arial, sans-serif;
+      color: #3d5b23;
+    }
+
+    .footer-left h6,
+    .footer-right h6 {
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      margin-bottom: 15px;
+    }
+
+    .footer-link {
+      display: flex;
+      gap: 15px;
+    }
+
+    .footer-link a img {
+      width: 25px;
+      height: 25px;
+      object-fit: contain;
+      transition: 0.3s;
+    }
+
+    .footer-link a img:hover {
+      transform: scale(1.1);
+    }
+
+    .footer-right p {
+      font-size: 13px;
+      margin-bottom: 10px;
+    }
+
+    .footer-right-input {
+      display: flex;
+      border: 1px solid #3d5b23;
+      width: fit-content;
+    }
+
+    .footer-right-input input {
+      border: none;
+      outline: none;
+      padding: 8px 10px;
+      font-size: 13px;
+    }
+
+    .footer-right-input span {
+      background: #3d5b23;
+      color: #fff;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      padding: 8px 15px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .footer-right-input span:hover {
+      background: #2a4018;
+    }
+
+    .footer-title p {
+      font-size: 11px;
+      color: #999;
+      margin-top: 8px;
+    }
+  </style>
+  <body>
+    <div className="footer-container">
+      <div className="footer-left">
+        <h6>KÊNH KẾT NỐI</h6>
+        <div className="footer-link">
+          <a href="">
+            <img src="./fb.png" alt="fb" />
+          </a>
+          <a href="">
+            <img src="./ig.png" alt="ig" />
+          </a>
+          <a href="">
+            <img src="./yt.png" alt="yt" />
+          </a>
+        </div>
+      </div>
+      <div className="footer-right">
+        <h6>LUÔN CẬP NHẬT</h6>
+        <p>Về các tin tức đó đây, sản phẩm mới</p>
+        <form>
+          <div className="footer-right-input">
+            <input type="email" placeholder="Email" />
+            <span>ĐĂNG KÝ</span>
+          </div>
+        </form>
+        <div className="footer-title">
+          <p>Chúng tôi tôn trọng quyền riêng tư của bạn</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
