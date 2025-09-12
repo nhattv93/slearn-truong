@@ -1,0 +1,58 @@
+@import url("https://db.onlinewebfonts.com/c/164a60c2e090248bebfcf32fdd5af386?family=Lulo+Clean+One+Bold");
+
+.row-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.row-1 {
+  position: relative;
+  display: flex;
+  justify-content: end;
+}
+
+.row-1 img {
+  max-width: 50%;
+}
+
+.row-2 {
+  max-width: 50%;
+}
+
+.row-2 img {
+  max-width: 51%;
+  max-height: 96%;
+}
+
+.row-1 span {
+  font-size: 20px;
+  font-family: "BeauLuloClean-OneBold";
+  padding: 6px 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #555555;
+  background-color: rgba(255, 241, 208, 0.9);
+}
+
+.row-1-span {
+  position: absolute;
+  bottom: 165px;
+  right: 160px;
+}
+
+.row-2 span {
+  font-size: 20px;
+  font-family: "BeauLuloClean-OneBold";
+  padding: 6px 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #555555;
+  background-color: rgba(255, 241, 208, 0.9);
+}
+
+.row-2-span {
+  position: absolute;
+  top: 1630px;
+  left: 1100px;
+}
