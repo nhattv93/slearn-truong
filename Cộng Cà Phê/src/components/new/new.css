@@ -1,0 +1,41 @@
+.new-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  position: relative;
+}
+
+.new-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.new-title {
+  position: absolute;
+  top: 0;
+  left: 445px;
+  width: 25%;
+  height: 100%;
+  background: rgba(255, 229, 180, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.new-title a {
+  font-weight: bold;
+  font-size: 22px;
+  color: #333;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.new-title p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
