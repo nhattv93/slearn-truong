@@ -2,10 +2,11 @@
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
-  padding: 40px 100px;
+  padding: 25px 100px;
   background: #fff;
   font-family: Arial, sans-serif;
   color: #3d5b23;
+  width: 81%;
 }
 
 .footer-left h6,
@@ -66,7 +67,7 @@
 }
 
 .footer-title p {
-  font-size: 11px;
+  font-size: 13px;
   color: #999;
   margin-top: 8px;
 }

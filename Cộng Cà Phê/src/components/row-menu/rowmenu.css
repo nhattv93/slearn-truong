@@ -1,0 +1,48 @@
+.rowmenu {
+  display: flex;
+  justify-content: center;
+}
+
+.rowmenu-column-1 {
+  display: grid;
+  width: 12.6%;
+}
+
+.rowmenu-column-2 {
+  display: grid;
+  width: 12.6%;
+}
+
+.rowmenu-column-3 {
+  display: grid;
+  width: 12.6%;
+}
+
+.rowmenu-column-4 {
+  display: grid;
+  width: 12.6%;
+}
+
+.rowmenu-column-1 h6 {
+  margin: 0;
+  color: #3d5b23;
+  font-size: 13px;
+}
+
+.rowmenu-column-2 h6 {
+  margin: 0;
+  color: #3d5b23;
+  font-size: 13px;
+}
+
+.rowmenu-column-3 h6 {
+  margin: 0;
+  color: #3d5b23;
+  font-size: 13px;
+}
+
+.rowmenu-column-4 h6 {
+  margin: 0 0 22px 0;
+  color: #3d5b23;
+  font-size: 13px;
+}

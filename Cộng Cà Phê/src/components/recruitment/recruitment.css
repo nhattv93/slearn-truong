@@ -1,0 +1,31 @@
+.recruitment-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  position: relative;
+}
+
+.recruitment-title {
+  position: absolute;
+  top: 80px;
+  background-color: rgba(255, 241, 208, 0.9);
+  padding: 20px;
+  width: 24%;
+}
+
+.recruitment-title p {
+  margin: 0;
+  color: #333;
+  text-align: center;
+}
+
+.recruitment-title a {
+  font-weight: bold;
+  font-size: 22px;
+  color: #333;
+  text-decoration: none;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}

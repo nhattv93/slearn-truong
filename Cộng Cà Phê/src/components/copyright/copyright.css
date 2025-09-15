@@ -1,0 +1,15 @@
+.copyright-container {
+  background-color: #4c5b29;
+}
+
+.copyright-title {
+  color: #fff;
+  margin: 0 450px;
+  padding: 25px;
+  font-size: 13px;
+}
+
+.copyright-title a {
+  color: #fff;
+  font-size: 13px;
+}
