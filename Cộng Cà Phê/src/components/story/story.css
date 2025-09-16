@@ -4,28 +4,41 @@
   position: relative;
   display: inline-block;
   overflow: hidden;
-  margin: 40px;
+  margin: 40px 465px;
+}
+
+.story-container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 241, 208, 0.9);
 }
 
 .story-span {
   position: absolute;
-  background-color: rgba(255, 241, 208, 0.9);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 1;
 }
 
 .story-span span {
   font-size: 20px;
-  font-family: "BeauLuloClean-OneBold";
+  font-family: "Lulo Clean One Bold", sans-serif;
   padding: 6px 30px;
   font-weight: bold;
   text-align: center;
   color: #555555;
-  background-color: rgba(255, 241, 208, 0.9);
-  max-width: 100%;
-  transition: all 0.5s ease;
+  transition: border-color 1s ease, transform 1s;
 }
 
-.story-container:hover {
+.story-container:hover::after {
+  background-color: transparent;
+}
+
+.story-container:hover .story-span span {
+  border: 1px solid #555555;
+  background-color: rgba(255, 241, 208, 0.9);
+  border-style: none;
+  transform: scale(1.5);
 }
