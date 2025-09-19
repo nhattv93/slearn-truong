@@ -6,8 +6,33 @@ export default function Header() {
         <li>
           <a href="">CÂU CHUYỆN</a>
         </li>
-        <li>
+        <li className="header-menu-li">
           <a href="">BẢNG TIN</a>
+          <div className="wrapDrop">
+            <ul>
+              <li>
+                <a href="">Chính sách KHTV</a>
+              </li>
+              <li>
+                <a href="">Tin Tức</a>
+              </li>
+              <li>
+                <a href="">Hợp Tác</a>
+              </li>
+              <li>
+                <a href="">Đó Đây</a>
+              </li>
+              <li>
+                <a href="">Tuyển dụng</a>
+              </li>
+              <li>
+                <a href="">Pha Chế</a>
+              </li>
+              <li>
+                <a href="">Cộng Lắng Nghe</a>
+              </li>
+            </ul>
+          </div>
         </li>
         <li>
           <a href="">THỰC ĐƠN</a>
@@ -18,8 +43,15 @@ export default function Header() {
             alt="logo"
           />
         </div>
-        <li>
+        <li className="header-menu-li">
           <a href="">QUẦY MẬU DỊCH</a>
+          <div className="wrapDrop">
+            <ul>
+              <li>
+                <a href="">Quầy Mậu Dịch</a>
+              </li>
+            </ul>
+          </div>
         </li>
         <li>
           <a href="">CỬA HÀNG</a>

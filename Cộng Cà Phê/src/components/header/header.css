@@ -1,6 +1,9 @@
 .header-menu {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 30px;
+  position: relative;
 }
 
 .header-logo {
@@ -10,6 +13,7 @@
 
 .header-logo img {
   max-width: 100%;
+  display: block;
 }
 
 li {
@@ -20,15 +24,91 @@ li {
 a {
   color: #555555;
   font-size: 17px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
 }
 
 .header-language {
   position: absolute;
   top: 37px;
   right: 35px;
-  max-width: 1%;
+  max-width: 20px;
 }
 
 .header-language img {
   max-width: 100%;
+  display: block;
+}
+
+.header-menu-li {
+  position: relative;
+}
+
+a:hover {
+  color: #111;
+}
+
+.wrapDrop {
+  position: absolute;
+  top: 100%;
+  left: -40px;
+  background: #fff;
+  min-width: 200px;
+  display: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeDown 0.25s ease;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.wrapDrop ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapDrop li a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.header-menu-li:hover .wrapDrop {
+  display: block;
+}
+
+.header-menu a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #3d5b23;
+  font-size: 17px;
+  padding: 5px 0;
+}
+
+.header-menu a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #555;
+  transition: width 0.3s ease;
+}
+
+.header-menu a:hover::after {
+  width: 100%;
+}
+
+.header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 1000;
 }
